@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
@@ -9,12 +11,15 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   color: #5b5a5a;
+}
+
+.open {
+  display: flex !important;
 }
 
 .main {
@@ -27,6 +32,11 @@ body {
 .content {
   margin: auto;
   justify-content: center;
+}
+
+header {
+  background-color: #f2f4f4;
+  justify-content: space-between;
 }
 
 #profile {
@@ -83,9 +93,12 @@ img {
   margin: 0 auto;
 }
 
+.list {
+  padding: 10px;
+}
+
 .nav-list {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   list-style: none;
 }
@@ -117,7 +130,7 @@ a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 60px;
+  height: 50px;
 }
 
 footer img {
@@ -129,8 +142,15 @@ code {
   display: block;
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
-  line-height: 1.5;
   padding: 10px;
+}
+
+#code span {
+  margin-left: 20px;
+}
+
+.nav-toggle {
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -140,16 +160,6 @@ code {
 }
 
 @media (max-width: 740px) {
-  .nav-list {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-
-  .nav-item {
-    margin-bottom: 10px;
-  }
-
   .profile-photo {
     width: 100px;
     height: 100px;
@@ -158,6 +168,40 @@ code {
     box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
     filter: grayscale(0.2) brightness(1.05);
     transition: .3s;
+  }
+
+  .header {
+    position: relative;
+  }
+  
+  .nav {
+    display: none;
+  }
+  
+  .nav-list {
+    position: absolute;
+    display: block;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(249, 249, 249, 0.9);
+    z-index: 50;
+  }
+  
+  .nav-toggle {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    color: #2c3e7c;
+    cursor: pointer;
+    z-index: 999;
+  }
+  
+  .show-nav .nav {
+    display: block;
   }
 }
 

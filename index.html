@@ -20,6 +20,7 @@
                     <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
                 </ul>
             </nav>
+            <div class="nav-toggle">&#9776;</div>
         </div>
     </header>
     <main class="main">
@@ -44,11 +45,10 @@
 
                 <section class="section" id="summary">
                     <h2 class="section-title">Summary</h2>
-                    <p>I am currently studying to become a frontend developer and I am eager to pursue a career in this field. I have a
+                    <p>I am currently studying a front-end development. I have a
                         strong technical background and a genuine passion for web development. I am dedicated to expanding my knowledge
                         and skills in HTML, CSS, and JavaScript to create engaging and user-friendly websites. I am a quick learner,
-                        detail-oriented, and enjoy collaborating with others to bring creative ideas to life. I am excited about the
-                        opportunities in the frontend industry and eager to contribute my skills to create impactful digital experiences.</p>
+                        detail-oriented, and enjoy collaborating with others to bring creative ideas to life.</p>
                 </section>
 
                 <section class="section" id="skills">
@@ -72,22 +72,24 @@
 
                 <section class="section" id="education">
                     <h2 class="section-title">Education</h2>
-                    <p>North-Eastern Federal University</p>
+                    <ul class="list">
+                        <li class="list-item">North-Eastern Federal University</li>
+                    </ul>
                 </section>
 
                 <section class="section" id="code">
-                    <h2 class="section-title">Code Exmaple</h2>
+                    <h2 class="section-title">Code Example</h2>
                     <code>
-                        function sumArray(array) {
-                            let fullSum = 0;
-                            if (array == null || array.length === 1 || array.length === 0)
-                            return 0;
-                            for (let i=0; i<span><</span>array.length; i++) {
-                            fullSum += array[i];
-                            }
-                            sum = fullSum - Math.max.apply(null, array) - Math.min.apply(null, array);
-                            return sum;
-                        }
+                        function sumArray(array) {<br>
+                            <span>let fullSum = 0;</span><br>
+                            <span>if (array == null || array.length === 1 || array.length === 0)</span><br>
+                            <span>return 0;</span><br>
+                            <span>for (let i=0; i<span><</span>array.length; i++) {</span><br>
+                            fullSum += array[i];<br>
+                            <span>}</span><br>
+                            <span>sum = fullSum - Math.max.apply(null, array) - Math.min.apply(null, array);</span><br>
+                            <span>return sum;</span><br>
+                        }<br>
                     </code>
                 </section>
 
@@ -115,6 +117,11 @@
             <p><a href="https://rs.school/js-stage0/"><img src="./assets/images/rsschool-logo.png" alt="RS School logo"></a></p>
         </div>
     </footer>
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+        document.querySelector('.header').classList.toggle('show-nav');
+        });
+    </script>
 </body>
 </html>
 
