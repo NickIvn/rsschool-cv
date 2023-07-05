@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple CV</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CV</title>
 </head>
 <body>
-    <h1>CV</h1>
-    <p>Info</p>
+    <header>
+      <p>Contacts</p>
+      <p>About</p>
+      <p>Slills</p>
+      <p>Education</p>
+      <p>Courses</p>
+      <p>Projects</p>
+      <p>English</p>
+    </header>
+    <main>
+    <div class="title">
+        <h1>Nikolai Ivanov</h1>
+        <p>Junior front-end developer</p>
+    </div>
+    <div class="container">
+    <section class="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li>Telegram: <a href="https://t.me/Nick2830">@Nick2830</a></li>
+        <li>Github: <a href="https://github.com/NickIvn">NickIvn</a></li>
+        <li>Email: <a href="mailto:nikolai.ivanov3110@gmail.com">nikolai.ivanov3110@gmail.com</a></li>
+      </ul>
+    </section>
+
+    <section class="about">
+        <h2>About</h2>
+        <p>
+          I am currently studying to become a frontend developer and I am eager to pursue a career in this field. I have a
+          strong technical background and a genuine passion for web development. I am dedicated to expanding my knowledge
+          and skills in HTML, CSS, and JavaScript to create engaging and user-friendly websites. I am a quick learner,
+          detail-oriented, and enjoy collaborating with others to bring creative ideas to life. I am excited about the
+          opportunities in the frontend industry and eager to contribute my skills to create impactful digital experiences.
+        </p>
+      </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5/CSS3</li>
+          <li>JavaScript/TypeScript</li>
+          <li>React</li>
+          <li>GitHub</li>
+        </ul>
+      </section>
+
+    <section class="courses">
+        <h2>Courses and Certificates</h2>
+        <ul>
+          <li>AWS Fundamentals 2023 in RS School - <a href="https://app.rs.school/certificate/iineds8w">certificate</a></li>
+          <li>React 2023 Q1 in RS School - <a href="https://app.rs.school/certificate/spi361um">certificate</a></li>
+          <li>NodeJS 2023 Q2 in RS School (in progress)</li>
+        </ul>
+      </section>
+
+      <section class="education">
+        <h2>Education</h2>
+        <p>North-Eastern Federal University</p>
+      </section>
+
+      <section class="code">
+        <h2>Code example</h2>
+        <!-- <code>
+            function sumArray(array) {
+              let fullSum = 0;
+              if (array == null || array.length === 1 || array.length === 0)  return 0;
+              for (let i=0; i<span><</span>array.length; i++) {
+                fullSum += array[i];
+              }
+              sum = fullSum - Math.max.apply(null, array) - Math.min.apply(null, array);
+              return sum;
+            }
+          </code> -->
+      </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Travel Blog</li>
+        <li><a href="https://develop--golden-clafoutis-688ad6.netlify.app/">GraphiQL</a></li>
+        <li><a href="https://willowy-dodol-cfa45e.netlify.app/">Movie Explore</a></li>
+      </ul>
+    </section>
+
+    <section class="english">
+      <h2>English</h2>
+      <p>B1 - Intermediate</p>
+    </section>
+  </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2023</p>
+    <p><a href="https://github.com/NickIvn">NickIvn</a></p>
+    <p><a href="https://rs.school/js-stage0/"><img src="rsschool-logo.png" alt="RS School logo"></a> </p>
+  </footer>
+
 </body>
 </html>

@@ -15,12 +15,16 @@ I am currently studying to become a frontend developer and I am eager to pursue 
 * HTML/CSS
 * JS/TS
 * React
+* GitHub
 
 ## Courses and education:
-* North-Eastern Federal University/specialist in radiophysics and electronics(5 years)
-* North-Eastern Federal University/master of physics(specialization: medical physics)
-* React 2023 Q1 in RS School [certificate](https://app.rs.school/certificate/spi361um)
+* AWS Fundamentals 2023 in RS School, [certificate](https://app.rs.school/certificate/iineds8w)
+* React 2023 Q1 in RS School, [certificate](https://app.rs.school/certificate/spi361um)
 * NodeJS 2023 Q2 in RS School (in progress)
+
+## Education
+* North-Eastern Federal University/specialist in radiophysics and electronics (5 years)
+* North-Eastern Federal University/master of physics (specialization: medical physics)
 
 ## Code example:
 ```
@@ -34,5 +38,12 @@ function sumArray(array) {
   }
 }
 ```
-## Languages:
-**English**: B1
+
+## Projects
+* Travel blog
+* [GraphiQL](https://develop--golden-clafoutis-688ad6.netlify.app/)
+* [Movie Explore](https://willowy-dodol-cfa45e.netlify.app/)
+
+
+## English:
+* B1 - Intermediate
