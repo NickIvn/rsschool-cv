@@ -2,7 +2,7 @@
 
 ## Contact Info:
 
-**Phone:** +994 51 425 8230
+**Phone:** +90 506 307 93 73
 
 **Gitub:** [NickIvn](https://github.com/NickIvn)
 
@@ -20,7 +20,7 @@ I am currently studying to become a frontend developer and I am eager to pursue 
 ## Courses and education:
 * AWS Fundamentals 2023 in RS School, [certificate](https://app.rs.school/certificate/iineds8w)
 * React 2023 Q1 in RS School, [certificate](https://app.rs.school/certificate/spi361um)
-* NodeJS 2023 Q2 in RS School (in progress)
+* JS/FE Pre-School 2023Q2 in RS School, [certificate](https://app.rs.school/certificate/l5hwb6te)
 
 ## Education
 * North-Eastern Federal University/specialist in radiophysics and electronics (5 years)
@@ -40,7 +40,7 @@ function sumArray(array) {
 ```
 
 ## Projects
-* Travel blog
+* [Travel blog](https://stately-meringue-cf29b0.netlify.app/)
 * [GraphiQL](https://develop--golden-clafoutis-688ad6.netlify.app/)
 * [Movie Explore](https://willowy-dodol-cfa45e.netlify.app/)
 
