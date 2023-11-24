@@ -5,7 +5,7 @@
 
 **Phone:** +90 506 307 9373
 
-**Gitub:** [NickIvn](https://github.com/NickIvn)
+**GitHub:** [NickIvn](https://github.com/NickIvn)
 
 **E-mail:** nikolai.ivanov3110@gmail.com
 
@@ -41,7 +41,7 @@ function sumArray(array) {
 ```
 
 ## Projects
-* [Travel blog](https://stately-meringue-cf29b0.netlify.app/)
+* [Travel blog](https://whimsical-crostata-c72444.netlify.app/)
 * [GraphiQL](https://develop--golden-clafoutis-688ad6.netlify.app/)
 * [Movie Explore](https://willowy-dodol-cfa45e.netlify.app/)
 
