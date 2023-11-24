@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/images/rsschool-logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+            <div class="nav-toggle">&#9776;</div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="./assets/images/avatar.jpg" alt="avatar" class="profile-photo">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Nikolai Ivanov</h1>
+                    <p>Junior front-end developer</p>
+                </div>
+            </section>
+
+            <div class="main-container content">
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contact Info</h2>
+                    <ul class="list contact-list">
+                        <li class="list-item">
+                            <img src="./assets/icons/telegram-icon.png" alt="icon" class="icons">
+                            <span>Telegram:</span>
+                            <a href="https://t.me/Nick2830">@Nick2830</a></li>
+                        <li class="list-item">
+                            <img src="./assets/icons/github-icon.png" alt="icon" class="icons">
+                            <span>Github:</span>
+                            <a href="https://github.com/NickIvn">NickIvn</a></li>
+                        <li class="list-item">
+                            <img src="./assets/icons/email-icon.png" alt="icon" class="icons">
+                            <span>Email:</span>
+                            <a href="mailto:nikolai.ivanov3110@gmail.com">nikolai.ivanov3110@gmail.com</a></li>
+                    </ul>
+                </section>
+
+                <section class="section" id="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p>I am currently studying a front-end development. I have a
+                        strong technical background and a genuine passion for web development. I am dedicated to expanding my knowledge
+                        and skills in HTML, CSS, and JavaScript to create engaging and user-friendly websites. I am a quick learner,
+                        detail-oriented, and enjoy collaborating with others to bring creative ideas to life.</p>
+                </section>
+
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="list">
+                        <li class="list-item">HTML5/CSS3</li>
+                        <li class="list-item">JavaScript/TypeScript</li>
+                        <li class="list-item">React</li>
+                        <li class="list-item">GitHub</li>
+                    </ul>
+                </section>
+
+                <section  class="section" id="courses">
+                    <h2 class="section-title">Courses</h2>
+                    <ul class="list">
+                        <li class="list-item">AWS Fundamentals 2023 in RS School - <a href="https://app.rs.school/certificate/iineds8w">certificate</a></li>
+                        <li class="list-item">React 2023 Q1 in RS School - <a href="https://app.rs.school/certificate/spi361um">certificate</a></li>
+                        <li class="list-item">JS/FE Pre-School 2023Q2 in RS School - <a href="https://app.rs.school/certificate/l5hwb6te">certificate</a></li>
+                    </ul>
+                </section>
+
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul class="list">
+                        <li class="list-item">North-Eastern Federal University/specialist in radiophysics and electronics (5 years)</li>
+                        <li class="list-item">North-Eastern Federal University/master of physics (specialization: medical physics)</li>
+                    </ul>
+                </section>
+
+                <section class="section" id="code">
+                    <h2 class="section-title">Code Example</h2>
+                    <code>
+                        function sumArray(array) {<br>
+                            <span>let fullSum = 0;</span><br>
+                            <span>if (array == null || array.length === 1 || array.length === 0)</span><br>
+                            <span>return 0;</span><br>
+                            <span>for (let i=0; i&lt;array.length; i++) {</span><br>
+                            fullSum += array[i];<br>
+                            <span>}</span><br>
+                            <span>sum = fullSum - Math.max.apply(null, array) - Math.min.apply(null, array);</span><br>
+                            <span>return sum;</span><br>
+                        }<br>
+                    </code>
+                </section>
+
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ul class="list">
+                        <li class="list-item"><a href="https://whimsical-crostata-c72444.netlify.app/">Hiking Blog</a></li>
+                        <li class="list-item"><a href="https://develop--golden-clafoutis-688ad6.netlify.app/">GraphiQL</a></li>
+                        <li class="list-item"><a href="https://willowy-dodol-cfa45e.netlify.app/">Movie Explore</a></li>
+                    </ul>
+                </section>
+
+                <section class="section" id="english">
+                    <h2 class="section-title">English</h2>
+                    <p>B1 - Intermediate</p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; November 2023</p>
+            <p><img src="./assets/icons/github-icon.png" alt="icon" class="icons">
+                <a href="https://github.com/NickIvn">NickIvn</a></p>
+            <p><a href="https://rs.school/js-en/"><img src="./assets/images/rsschool-logo.png" alt="RS School logo"></a></p>
+        </div>
+    </footer>
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+        document.querySelector('.header').classList.toggle('show-nav');
+        });
+    </script>
+</body>
+</html>
+
